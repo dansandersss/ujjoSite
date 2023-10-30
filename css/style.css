@@ -63,14 +63,21 @@ header button:hover{
 	top: -2px;
 }
 
-/* PAGE */
+/* PAGE 1 */
 
-.page{
-	border: 1px solid var(--color2);
+.page1{
+	border-right: 1px solid var(--color2);
+	border-left: 1px solid var(--color2);
+}
+
+.page1 .col-6{
+	padding: 0;
+	border-right: 1px solid var(--color2);
 }
 
 .logo-element{
-	border: 1px solid var(--color2);
+	border-left: 1px solid var(--color2);
+	border-bottom: 1px solid var(--color2);
 	border-top: 0;
 }
 
@@ -85,7 +92,8 @@ header button:hover{
 	overflow: hidden;
 	white-space: nowrap;
 	padding: 23px;
-	border: 1px solid var(--color2);
+	border-bottom: 1px solid var(--color2);
+	border-left: 1px solid var(--color2);
 	border-top: 0;
 }
 
@@ -113,12 +121,50 @@ header button:hover{
 /* ----- */
 
 .image-item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	padding: 20px 15px;
-	border: 1px solid var(--color2);
+	border-left: 1px solid var(--color2);
+	border-bottom: 1px solid var(--color2);
 	border-top: 0;
 }
 
 .image-item img{
-	width: 600px;
+	width: 100%;
+}
 
+.title{
+	padding: 24px 80px 15px;
+	border-bottom: 1px solid var(--color2);
+}
+
+.title h1{
+	font-size: 58px;
+	margin: 0;
+}
+
+.block2 .image-item{
+	border-left: 0;
+}
+
+.block2 .image-item img{
+	max-height: 753px;
+}
+
+/* PAGE 2 */
+
+.page2{
+	border: 1px solid var(--color2);
+	padding: 69px 0;
+}
+
+.scorpio-logo-mirrored img{
+	transform: scaleX(-1);
+}
+
+.page2 h1{
+	font-size: 65px;
+	margin: 0;
+	text-align: center;
 }
