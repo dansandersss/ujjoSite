@@ -62,3 +62,63 @@ header button a:hover{
 header button:hover{
 	top: -2px;
 }
+
+/* PAGE */
+
+.page{
+	border: 1px solid var(--color2);
+}
+
+.logo-element{
+	border: 1px solid var(--color2);
+	border-top: 0;
+}
+
+.logo-element img{
+	width: 636px;
+}
+
+/* MARQUEE */
+
+.marquee-container {
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 23px;
+	border: 1px solid var(--color2);
+	border-top: 0;
+}
+
+.marquee {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	animation: marquee 10s linear infinite;
+}
+
+.marquee img{
+	margin-right: 29px;
+}
+
+.marquee h3{
+	font-size: 17px;
+	margin: 0;
+}
+
+@keyframes marquee {
+	0% { transform: translateX(100%); }
+	100% { transform: translateX(-100%); }
+}
+
+/* ----- */
+
+.image-item{
+	padding: 20px 15px;
+	border: 1px solid var(--color2);
+	border-top: 0;
+}
+
+.image-item img{
+	width: 600px;
+
+}
